@@ -1,0 +1,130 @@
+\documentclass[10pt,reqno]{amsart}
+\usepackage{articlesetup}
+\usepackage{float}
+
+\bibliography{bibliography}
+
+\author{Harvey J. Stein}
+\email{hjstein@bloomberg.net}
+
+\date{\today}
+
+\begin{document}
+
+\title{COVID-19 Second Wave in NYC?  Yes and No}
+
+\begin{abstract}
+  Recent data shows a jump in COVID-19 infections in NYC.  How worried
+  should we be?
+\end{abstract}
+
+
+
+\maketitle
+\tableofcontents
+
+\section{Introduction}
+\label{sec:intro}
+Since September, NYC COVID-19 infection rates have been mostly
+increasing.  This has lead to a spike in news articles, such as ``New
+York City sees 'very worrisome' spike in coronavirus infection rate''
+\cite{Politico2020Worrisome}.  How worrisome is it, really?  Let's
+look at the data.
+
+\section{Recent history}
+\label{sec:recent}
+
+Figure~\ref{fig:dailyRecent} shows the 7-day rolling average of the
+number of cases per day since the drop off of the first wave in June.
+After the drop off (due to the impact of mitigating measures, such as
+the lock-down and social distancing), the number of cases per day
+dropped to around 325/day.  There was a small increase in the number
+of cases per day in mid-July, peaking around 375/day, after which the
+number of cases per day dropped down to under 250/day.
+
+\begin{figure}[h!tbp]
+  \centering
+  \includegraphics[width=\textwidth]{../Notebooks/recentHistoryNov2.png}
+  \caption{NYC COVID-19 cases per day, more recent report, beginning
+    of November.}
+  \label{fig:dailyRecent}
+\end{figure}
+
+Starting in September, we see a rise in the number of cases per
+day.  It has steadily increased, peaking at 550 cases per day on
+October 5th.  Subsequently, it dropped down to 450 cases per day and started
+rising again, hitting 550 cases per day again on October 29th.  Given
+that this last peak was less than a week ago, we can expect it to rise
+higher.
+
+People are calling this a worrisome second wave, as exemplified in the
+above article.  But, to put this rise in perspective, we need to the
+data leading up to the latest peak (Figure~\ref{fig:secondPeak}) to
+the data leading up to the first peak (~Figure~\ref{fig:firstPeak}).
+
+\begin{figure}[h!tbp]
+  \centering
+  \includegraphics[width=\textwidth]{../Notebooks/twoMonthsToOctPeak.png}
+  \caption{NYC COVID-19 cases per day, two months up to October peak.}
+  \label{fig:secondPeak}
+\end{figure}
+
+\begin{figure}[h!btp]
+  \centering
+  \includegraphics[width=\textwidth]{../Notebooks/historyTwoMonthsToPeak.png}
+  \caption{Data leading up to peak in first wave.}
+  \label{fig:firstPeak}
+\end{figure}
+
+As you can see, for the recent peak, it's taken about 4 weeks to
+double.  We were at 250 cases/day at the beginning of September and
+didn't hit 550 cases/day until the end of the first week of October.
+
+Compare this to the beginning of the pandemic.  On March 10th, there
+were almost no cases per day.  Over the course of one week, the number
+of cases per day jumped up to 1,000.  Two days later we were
+experiencing 2,000 cases per day.  Three days later we hit 3,000
+cases per day, and 5 days later were seeing 4,000 cases/day.  The peak
+was over 5,000 cases per day.
+
+So, compared to the first wave, the recent peak is more of a ripple
+than a wave.  While we still have to be careful, it's not unexpected
+that between school openings, restaurant openings and holidays, we'd
+see some additional growth.  But it looks like the social distancing
+measures are continuing to do their work.
+
+To make sure, let's look at the latest data as compared to
+earlier data (Figure~\ref{fig:growthNov2}).  It looks like we've
+pretty much received all of the data through October 12th.  For more
+recent counts, we have to wait for additional data to be received,
+which would likely increase the post-October 12th counts.  In
+particular, I expect the counts for the last week of October to rise
+to 600 or more cases per day before dropping off.
+
+I suspect that this recent rise is the impact of people
+preparing for and celebrating Halloween.  I would expect that the
+counts will subsequently drop in November and rise again around
+Thanksgiving.
+
+\begin{figure}[h!btp]
+  \centering
+  \includegraphics[width=\textwidth]{../Notebooks/casesPerDayHistoryNov2.png}
+  \caption{Recent history, all reports.}
+  \label{fig:growthNov2}
+\end{figure}
+
+\section{Summary}
+The social distancing steps that have been taken appear to be
+effective in keeping the cases per day reasonably low.  We should
+expect the number of cases per day to stabilize at new levels as
+social distancing measures are lessened, such as with the opening of
+schools and restaurants.  And we should expect that rates will rise
+as we approach commonly celebrated holidays and subsequently fall off.
+
+So, it looks like the recent rise of infections per day in NYC
+is to be expected, and not as worrisome as is being portrayed in the
+media.  In NYC, it looks like it's more a ripple than a second wave.
+
+\printbibliography
+
+\end{document}
