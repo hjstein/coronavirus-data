@@ -12,7 +12,13 @@ datasets = []
 
 for filename in glob.glob(tmpdir + "/*.csv"):
     print(filename)
-    df = pd.read_csv(filename)
+
+    try:
+        df = pd.read_csv(filename)
+    except pd.io.common.EmptyDataError:
+        print("Skipping -- file is empty")
+        continue
+
     as_of = filename.split(".")[1].replace("_", ":")
     df["AS_OF"] = as_of
 

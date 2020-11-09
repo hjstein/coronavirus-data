@@ -20,10 +20,10 @@ if [ "${GIT_PATH_TO_FILE}" == "" ]; then
 fi
 
 # check if file exist
-if [ ! -f ${GIT_PATH_TO_FILE} ]; then
-    echo "error: File '${GIT_PATH_TO_FILE}' does not exist. ${USAGE}" >&2
-    exit 1
-fi
+# if [ ! -f ${GIT_PATH_TO_FILE} ]; then
+#     echo "error: File '${GIT_PATH_TO_FILE}' does not exist. ${USAGE}" >&2
+#     exit 1
+# fi
 
 # extract just a filename from given relative path (will be used in result file names)
 GIT_SHORT_FILENAME=$(basename $GIT_PATH_TO_FILE)

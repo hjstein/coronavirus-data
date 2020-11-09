@@ -12,8 +12,11 @@
 # Clear out previous datasets
 rm all_versions_exported/*
 
-# Pull history
-Scripts/git-export-all-file-versions case-hosp-death.csv
+# Pull old history
+Scripts/git-export-all-file-versions ./case-hosp-death.csv
+
+# Pull new history
+Scripts/git-export-all-file-versions ./Trends/data-by-day.csv
 
 # Generate history.csv file:
 python Scripts/generate-history.py
