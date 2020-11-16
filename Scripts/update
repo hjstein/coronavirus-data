@@ -16,7 +16,7 @@ rm all_versions_exported/*
 Scripts/git-export-all-file-versions ./case-hosp-death.csv
 
 # Pull new history
-Scripts/git-export-all-file-versions ./Trends/data-by-day.csv
+Scripts/git-export-all-file-versions ./trends/data-by-day.csv
 
 # Generate history.csv file:
 python Scripts/generate-history.py
