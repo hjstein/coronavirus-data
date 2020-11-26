@@ -15,7 +15,7 @@ for filename in glob.glob(tmpdir + "/*.csv"):
 
     try:
         df = pd.read_csv(filename)
-    except pd.io.common.EmptyDataError:
+    except pd.errors.EmptyDataError:
         print("Skipping -- file is empty")
         continue
 
