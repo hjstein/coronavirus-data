@@ -8,7 +8,19 @@ Data are preliminary and subject to change. Information on this page will change
 
 The Health Department classifies the start of the COVID-19 outbreak in NYC as the date of the first laboratory-confirmed case, February 29, 2020.  
 
-** 
+***
+## How to use this repository
+This repository contains CSV (comma separated values) files of data, and Readme files with important documentation of the data. If you are unfamiliar with Github, you may find these instructions helpful:
+
+**To download data**, scroll up to the green button labelled "Code." Clicking this button will start a download of a ZIP file of the entire contents of this repository.
+
+Alternatively, you can download a single file. Click on a file you would like to download. Next, click the "Raw" button. Right click and save as a CSV file. 
+
+**For help understanding a file**, you can consult the documentation we have provided in the Readme files for each folder of data. To find  Readme files, just click on a folder name, above, and scroll down. Documentation is organized by file name, so you can scroll through the Readme, find the name of the file you are using for, and read documentation on it. Additionally, some universal documentation is provided in the Technical notes, below. 
+
+**Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
+
+***
 
 ## Important: changes on November 9, 2020
 
@@ -29,16 +41,10 @@ In order to support an update to the [Health Department’s COVID-19 Data webpag
 | tests-by-zcta | data-by-modzcta.csv | Totals/ | 
 | boro/boroughs-case-hosp-death.csv | data-by-day.csv | Trends/ | 
 | boroughs-by-age.csv, boroughs-by-race.csv, boroughs-by-sex.csv | group-data-by-boro.csv, group-case-by-boro.csv, group-hosp-by-boro,csv, group-deaths-by-boro.csv | Totals/ | 
-| deaths/probable-confirmed-dod.csv | data-by-day.csv | Totals/ | 
+| deaths/probable-confirmed-dod.csv | data-by-day.csv | Trends/ | 
 | sydromic_data.csv | covid-like-illness.csv | Trends/ | 
 | recent-4-week-citywide.csv | Similar data available in now-summary.csv | Latest/ | 
 | recent-4-week-by-modzcta.csv | Similar data available in caserate-by-modzcta.csv, testrate-by-modzcta.csv, percentpositive-by-modzcta.csv | Trends/ | 
-
-### Questions and custom requests 
-
-- We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  
-
-- We are not able to accommodate custom data requests placed via Github.   
 
 ### 
 
@@ -77,11 +83,14 @@ The Health Department conducts two main types of surveillance for COVID-19:
 
 We receive data from all 53 hospital emergency departments (EDs) in NYC about the types of illnesses people experience on a regular basis. This surveillance allows the Health Department to evaluate care-seeking trends at hospitals for influenza-like illness and pneumonia.    
 
-The information on each patient is evaluated for descriptions that resemble influenza-like illness or pneumonia. Influenza-like illness is defined as mention of either:   
+The information on each patient is evaluated for descriptions that resemble influenza-like illness or pneumonia, or include the ICD-10-CM code (U07.1) for 2019 novel coronavirus disease. Influenza-like illness is defined as mention of either:
+
 - Fever and cough      
 - Fever and sore throat   
 - Fever and shortness of breath or difficulty breathing 
 - Influenza   
+
+We exclude those who present with influenza-like illness and are subsequently assigned with only an ICD-10-CM code for influenza.
 
 Pneumonia is defined as mention or diagnosis of pneumonia. Since the signs and symptoms of COVID-19 overlap with these categories that the Health Department tracks routinely, we are able to identify unusual spikes in people seeking care at hospitals. We are using this as a proxy measure to observe COVID-19-like disease in the population.   
 
