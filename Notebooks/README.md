@@ -1,5 +1,10 @@
 # Data analysis notebooks
 
+## [Current.ipynb](Current.ipynb)
+
+Latest snapshot of recent history - cases/day, hospitalizations/day &
+deaths/day, with comparison to first wave.
+
 ## [Analysis.ipynb](Analysis.ipynb)
 
 Analysis of data, including:
