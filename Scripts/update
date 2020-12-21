@@ -37,3 +37,6 @@ jupyter nbconvert --to notebook --inplace --execute Notebooks/Reporting.ipynb
 
 jupyter nbconvert --to notebook --inplace --execute Notebooks/TalkSlides.ipynb
 
+# Update current view
+
+jupyter nbconvert --to notebook --inplace --execute Notebooks/Current.ipynb
