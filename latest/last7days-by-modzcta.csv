@@ -1,178 +1,178 @@
 modzcta,modzcta_name,percentpositivity_7day,people_tested,people_positive,median_daily_test_rate,adequately_tested,daterange
-10001,Chelsea/NoMad/West Chelsea,3.06,1143,35,488.9,Yes,December 20-December 26
-10002,Chinatown/Lower East Side,7.34,2780,204,454,Yes,December 20-December 26
-10003,East Village/Gramercy/Greenwich Village,2.32,2372,55,474.3,Yes,December 20-December 26
-10004,Financial District,1.82,275,5,672.9,Yes,December 20-December 26
-10005,Financial District,2.71,406,11,468.2,Yes,December 20-December 26
-10006,Financial District,2.08,144,3,591.4,Yes,December 20-December 26
-10007,TriBeCa,2.99,401,12,758.1,Yes,December 20-December 26
-10009,Alphabet City/East Village/Stuyvesant Town-Cooper Village,3.81,2203,84,419.9,Yes,December 20-December 26
-10010,Flatiron/Gramercy/Kips Bay,2.57,1712,44,647.6,Yes,December 20-December 26
-10011,Chelsea,2.88,2504,72,627.2,Yes,December 20-December 26
-10012,Greenwich Village/SoHo,2.84,1162,33,475.1,Yes,December 20-December 26
-10013,Hudson Square/Little Italy/SoHo/TriBeCa,4.08,1276,52,461.5,Yes,December 20-December 26
-10014,Hudson Square/Meatpacking District/West Village,1.76,1702,30,481.3,Yes,December 20-December 26
-10016,Kips Bay/Murray Hill/NoMad,2.44,2833,69,654.1,Yes,December 20-December 26
-10017,East Midtown/Murray Hill,3.81,762,29,698.1,Yes,December 20-December 26
-10018,Hell's Kitchen/Midtown Manhattan,3.13,415,13,424.1,Yes,December 20-December 26
-10019,Hell's Kitchen/Midtown Manhattan,3.43,1835,63,471,Yes,December 20-December 26
-10021,Lenox Hill/Upper East Side,2.6,2311,60,614.7,Yes,December 20-December 26
-10022,East Midtown,2.23,1976,44,721.8,Yes,December 20-December 26
-10023,Lincoln Square,1.78,2807,50,607,Yes,December 20-December 26
-10024,Upper West Side,2.6,2692,70,659.1,Yes,December 20-December 26
-10025,Manhattan Valley/Morningside Heights/Upper West Side,2.4,4326,104,555.6,Yes,December 20-December 26
-10026,Central Harlem (South),5.17,1393,72,429.3,Yes,December 20-December 26
-10027,Central Harlem (South)/Morningside Heights/West Harlem,2.91,2374,69,326.5,Yes,December 20-December 26
-10028,Upper East Side/Yorkville,3.06,2286,70,601.6,Yes,December 20-December 26
-10029,East Harlem,5.88,2229,131,360.5,Yes,December 20-December 26
-10030,Central Harlem (North),5.45,881,48,365.6,Yes,December 20-December 26
-10031,Hamilton Heights/West Harlem,6.84,1534,105,279.5,Yes,December 20-December 26
-10032,Washington Heights (South),7.42,1752,130,283.9,Yes,December 20-December 26
-10033,Washington Heights (North)/Washington Heights (South),7.93,1602,127,283.7,Yes,December 20-December 26
-10034,Inwood/Washington Heights (North),8.87,1071,95,419,Yes,December 20-December 26
-10035,East Harlem,6.4,1078,69,360.4,Yes,December 20-December 26
-10036,Hell's Kitchen/Midtown Manhattan,3.25,1263,41,451.5,Yes,December 20-December 26
-10037,Central Harlem (North)/East Harlem,4.91,632,31,399.2,Yes,December 20-December 26
-10038,Chinatown/Financial District,3.9,821,32,398,Yes,December 20-December 26
-10039,Central Harlem (North)/Washington Heights (South),7.24,594,43,264.9,Yes,December 20-December 26
-10040,Washington Heights (North),8.95,1162,104,379.8,Yes,December 20-December 26
-10044,Roosevelt Island,3.07,391,12,308.4,Yes,December 20-December 26
-10065,Lenox Hill/Upper East Side,1.99,1762,35,1021.5,Yes,December 20-December 26
-10069,Lincoln Square,3.28,305,10,716,Yes,December 20-December 26
-10075,Lenox Hill/Upper East Side,2.82,1347,38,781.1,Yes,December 20-December 26
-10128,Upper East Side/Yorkville,2.97,2996,89,618.2,Yes,December 20-December 26
-10280,Battery Park City,4.16,385,16,502.9,Yes,December 20-December 26
-10282,Battery Park City,3.56,253,9,430.7,Yes,December 20-December 26
-10301,Silver Lake/St. George,8.17,1530,125,670.9,Yes,December 20-December 26
-10302,Elm Park,9.85,619,61,470.7,Yes,December 20-December 26
-10303,Graniteville/Mariner's Harbor/Port Ivory,7.97,928,74,486.6,Yes,December 20-December 26
-10304,New Dorp/Todt Hill,8.25,1696,140,558.6,Yes,December 20-December 26
-10305,Arrochar/Midland Beach/Shore Acres/South Beach Ocean Breeze,8.51,1633,139,590.3,Yes,December 20-December 26
-10306,Lighthouse Hill/Midland Beach/New Dorp/Oakwood,10.6,2472,262,772.6,Yes,December 20-December 26
-10307,Tottenville,9.84,569,56,549.9,Yes,December 20-December 26
-10308,Great Kills,8.9,1270,113,717.6,Yes,December 20-December 26
-10309,Charleston/Prince's Bay/Woodrow,9.49,1349,128,592,Yes,December 20-December 26
-10310,Port Richmond/Randall Manor/West Brighton,7.27,1073,78,733.7,Yes,December 20-December 26
-10312,Annadale/Rossville,8.63,2410,208,625.7,Yes,December 20-December 26
-10314,Bloomfield/Freshkills Park,10.29,3536,364,563.1,Yes,December 20-December 26
-10451,Concourse/Melrose,9.27,1100,102,337.8,Yes,December 20-December 26
-10452,Concourse/Highbridge,9.71,1699,165,299.2,Yes,December 20-December 26
-10453,Morris Heights/Mount Hope/University Heights,11.49,1776,204,366.1,Yes,December 20-December 26
-10454,Mott Haven/Port Morris,8.48,1038,88,383.3,Yes,December 20-December 26
-10455,Mott Haven,7.89,900,71,274.5,Yes,December 20-December 26
-10456,Claremont/Morrisania,7.88,1930,152,297.2,Yes,December 20-December 26
-10457,Belmont/Claremont/Mount Hope/Tremont,8.64,1608,139,290.3,Yes,December 20-December 26
-10458,Belmont/Fordham University/Kingsbridge,9.8,1714,168,268.3,Yes,December 20-December 26
-10459,Charlotte Gardens/Hunts Point,8.78,1094,96,307.1,Yes,December 20-December 26
-10460,Charlotte Gardens/Tremont/Van Nest/West Farms,9.59,1376,132,309.1,Yes,December 20-December 26
-10461,Morris Park/Pelham Bay/Westchester Square,7.47,1567,117,419.6,Yes,December 20-December 26
-10462,Parkchester/Pelham Parkway/Van Nest/Westchester Square,8.78,1799,158,335.9,Yes,December 20-December 26
-10463,Kingsbridge/Marble Hill/Riverdale/Spuyten Duyvil,6.32,2008,127,348.7,Yes,December 20-December 26
-10464,City Island,6.15,244,15,840.1,Yes,December 20-December 26
-10465,Country Club/Throgs Neck,9.34,1295,121,347.8,Yes,December 20-December 26
-10466,Edenwald/Wakefield,5.59,1789,100,314.1,Yes,December 20-December 26
-10467,Allerton/Norwood/Pelham Parkway/Williamsbridge,7.58,2468,187,309.6,Yes,December 20-December 26
-10468,Fordham/Kingsbridge/University Heights,11.23,1737,195,291.7,Yes,December 20-December 26
-10469,Allerton/Baychester/Pelham Gardens/Williamsbridge,7.64,1767,135,303,Yes,December 20-December 26
-10470,Wakefield/Woodlawn,12.22,442,54,400.2,Yes,December 20-December 26
-10471,Fieldston/North Riverdale/Riverdale,5.45,826,45,616.7,Yes,December 20-December 26
-10472,Soundview,10.17,1465,149,276.6,Yes,December 20-December 26
-10473,Castle Hill/Clason Point/Soundview,8.36,1758,147,416.2,Yes,December 20-December 26
-10474,Hunts Point,10.76,288,31,367.4,Yes,December 20-December 26
-10475,Co-op City/Edenwald,5.29,1135,60,322.9,Yes,December 20-December 26
-11004,Bellerose/Douglaston-Little Neck,8.51,482,41,448.6,Yes,December 20-December 26
-11101,Astoria (South)/Long Island City/Sunnyside,4.8,1626,78,575.5,Yes,December 20-December 26
-11102,Astoria (North),5.27,1252,66,519.2,Yes,December 20-December 26
-11103,Astoria (North)/Astoria (South),5.33,1408,75,626.8,Yes,December 20-December 26
-11104,Sunnyside,5.87,1073,63,546.4,Yes,December 20-December 26
-11105,Ditmars Steinway,7.09,1170,83,414.5,Yes,December 20-December 26
-11106,Astoria (South),4.67,1392,65,443.5,Yes,December 20-December 26
-11109,Long Island City,2.51,358,9,763.5,Yes,December 20-December 26
-11201,Brooklyn Heights/DUMBO/Downtown Brooklyn,2.3,3003,69,566.7,Yes,December 20-December 26
-11203,East Flatbush (North)/East Flatbush (South),6.7,1867,125,392.8,Yes,December 20-December 26
-11204,Bensonhurst/Mapleton,12.42,1651,205,313.9,Yes,December 20-December 26
-11205,Bedford-Stuyvesant (West)/Clinton Hill/Fort Greene,2.93,1739,51,677.2,Yes,December 20-December 26
-11206,Williamsburg (South),5.89,2477,146,346,Yes,December 20-December 26
-11207,Cypress Hills/East New York,7.49,2231,167,351.6,Yes,December 20-December 26
-11208,Cypress Hills/East New York,11.61,1989,231,320.2,Yes,December 20-December 26
-11209,Bay Ridge/Fort Hamilton,6,2749,165,619.1,Yes,December 20-December 26
-11210,Flatlands/Midwood,7.56,1481,112,330.4,Yes,December 20-December 26
-11211,East Williamsburg/Williamsburg (North)/Williamsburg (South),3.91,3986,156,476.1,Yes,December 20-December 26
-11212,Ocean Hill-Brownsville,6.61,2056,136,401.5,Yes,December 20-December 26
-11213,Crown Heights (East),7.51,1717,129,404,Yes,December 20-December 26
-11214,Bath Beach/Bensonhurst/Gravesend,12.72,2170,276,388.9,Yes,December 20-December 26
-11215,Gowanus/Park Slope/Windsor Terrace,1.98,3588,71,785.6,Yes,December 20-December 26
-11216,Bedford-Stuyvesant (West)/Crown Heights (West),3.11,2248,70,496.1,Yes,December 20-December 26
-11217,Boerum Hill/Park Slope,2.03,2120,43,726.7,Yes,December 20-December 26
-11218,Kensington/Windsor Terrace,6.36,2296,146,398.7,Yes,December 20-December 26
-11219,Borough Park,13.26,1621,215,283.1,Yes,December 20-December 26
-11220,Sunset Park,13.31,2532,337,370,Yes,December 20-December 26
-11221,Bedford-Stuyvesant (East)/Bushwick,5.05,2735,138,368.4,Yes,December 20-December 26
-11222,Greenpoint,3.4,1616,55,492.8,Yes,December 20-December 26
-11223,Gravesend/Homecrest,12.24,2328,285,492.1,Yes,December 20-December 26
-11224,Brighton Beach/Coney Island/Seagate,11.2,1188,133,440.9,Yes,December 20-December 26
-11225,Crown Heights (West)/Prospect Lefferts Gardens,4.29,1890,81,413.8,Yes,December 20-December 26
-11226,Flatbush/Prospect Lefferts Gardens,5.22,2778,145,405.7,Yes,December 20-December 26
-11228,Bath Beach/Dyker Heights,9.88,1589,157,566.9,Yes,December 20-December 26
-11229,Gerritsen Beach/Homecrest/Sheepshead Bay,11.22,2353,264,391.5,Yes,December 20-December 26
-11230,Midwood,12.3,2765,340,526.5,Yes,December 20-December 26
-11231,Carroll Gardens/Cobble Hill/Red Hook,2.51,2069,52,816,Yes,December 20-December 26
-11232,Sunset Park,6.79,869,59,520.6,Yes,December 20-December 26
-11233,Bedford-Stuyvesant (East)/Ocean Hill-Brownsville,4.65,1958,91,425.2,Yes,December 20-December 26
-11234,Bergen Beach/Flatlands/Marine Park/Mill Basin,8.54,2505,214,406.1,Yes,December 20-December 26
-11235,Brighton Beach/Manhattan Beach/Sheepshead Bay,14.51,2233,324,501.3,Yes,December 20-December 26
-11236,Canarsie,6.24,2323,145,339.8,Yes,December 20-December 26
-11237,Bushwick/East Williamsburg,6.98,1347,94,339.6,Yes,December 20-December 26
-11238,Clinton Hill/Prospect Heights,1.91,2721,52,590.1,Yes,December 20-December 26
-11239,East New York,7.25,469,34,437.7,Yes,December 20-December 26
-11354,Flushing/Murray Hill,6.99,1158,81,307.9,Yes,December 20-December 26
-11355,Flushing/Murray Hill/Queensboro Hill,13.45,1658,223,323.4,Yes,December 20-December 26
-11356,College Point,7.77,682,53,377,Yes,December 20-December 26
-11357,Whitestone,8.03,1345,108,550.2,Yes,December 20-December 26
-11358,Auburndale/Murray Hill,8.57,1085,93,460.8,Yes,December 20-December 26
-11360,Bayside (North),5.66,601,34,477.8,Yes,December 20-December 26
-11361,Bayside (North)/Bayside (South),7.99,776,62,409.5,Yes,December 20-December 26
-11362,Douglaston-Little Neck,5.95,437,26,392.2,Yes,December 20-December 26
-11363,Douglaston-Little Neck,8.67,196,17,460.3,Yes,December 20-December 26
-11364,Bayside (South)/Oakland Gardens,5.35,990,53,383.9,Yes,December 20-December 26
-11365,Auburndale/Fresh Meadows/Pomonok/Utopia,9.42,1115,105,340.1,Yes,December 20-December 26
-11366,Fresh Meadows/Hillcrest,10.54,427,45,478.6,Yes,December 20-December 26
-11367,Kew Gardens Hills/Pomonok,8.51,1210,103,393.4,Yes,December 20-December 26
-11368,Corona/North Corona,11.64,2156,251,299,Yes,December 20-December 26
-11369,Airport/East Elmhurst,8.7,1057,92,428.2,Yes,December 20-December 26
-11370,Jackson Heights/Rikers Island,9.38,725,68,270.6,Yes,December 20-December 26
-11372,Jackson Heights,7.46,1809,135,456.5,Yes,December 20-December 26
-11373,Elmhurst,8.57,2403,206,348,Yes,December 20-December 26
-11374,Rego Park,10.04,1365,137,461.4,Yes,December 20-December 26
-11375,Forest Hills,5.72,2396,137,435,Yes,December 20-December 26
-11377,Woodside,9.68,2840,275,431.9,Yes,December 20-December 26
-11378,Maspeth,9.4,1021,96,337.5,Yes,December 20-December 26
-11379,Middle Village,9.7,1144,111,420.3,Yes,December 20-December 26
-11385,Glendale/Ridgewood,8.47,2964,251,331,Yes,December 20-December 26
-11411,Cambria Heights,5.71,508,29,318.1,Yes,December 20-December 26
-11412,St. Albans,7.19,1016,73,472.5,Yes,December 20-December 26
-11413,Laurelton/Rosedale,5.24,1031,54,370.3,Yes,December 20-December 26
-11414,Hamilton Beach/Howard Beach/Lindenwood,9.68,857,83,394.9,Yes,December 20-December 26
-11415,Kew Gardens,5.61,660,37,508.7,Yes,December 20-December 26
-11416,Ozone Park,13.33,570,76,291.8,Yes,December 20-December 26
-11417,Ozone Park,11.38,791,90,299.6,Yes,December 20-December 26
-11418,Richmond Hill,8.47,1051,89,545.4,Yes,December 20-December 26
-11419,Richmond Hill/South Ozone Park,14.38,1259,181,397.9,Yes,December 20-December 26
-11420,South Ozone Park,10.17,1259,128,342.8,Yes,December 20-December 26
-11421,Woodhaven,11.13,970,108,289.6,Yes,December 20-December 26
-11422,Rosedale,6.81,896,61,444.6,Yes,December 20-December 26
-11423,Hollis/Holliswood,7.58,844,64,475.3,Yes,December 20-December 26
-11426,Bellerose,11.02,508,56,396.8,Yes,December 20-December 26
-11427,Bellerose/Hollis Hills/Holliswood,9.36,705,66,449.7,Yes,December 20-December 26
-11428,Queens Village,11.09,505,56,344.4,Yes,December 20-December 26
-11429,Queens Village,7.74,762,59,478.3,Yes,December 20-December 26
-11432,Hillcrest/Jamaica Estates/Jamaica Hills,10.38,1648,171,413.1,Yes,December 20-December 26
-11433,Jamaica,7.93,857,68,347.7,Yes,December 20-December 26
-11434,Airport/South Jamaica/Springfield Gardens/St. Albans,7.22,1649,119,389.4,Yes,December 20-December 26
-11435,Briarwood/Jamaica,8.56,1495,128,481,Yes,December 20-December 26
-11436,South Jamaica/South Ozone Park,8.32,493,41,379.2,Yes,December 20-December 26
-11691,Edgemere/Far Rockaway,12.53,1811,227,417.3,Yes,December 20-December 26
-11692,Arverne/Edgemere,6.45,543,35,351.9,Yes,December 20-December 26
-11693,Arverne/Broad Channel,4.69,384,18,441.9,Yes,December 20-December 26
-11694,Belle Harbor-Neponsit/Rockaway Park,7.86,942,74,514.9,Yes,December 20-December 26
-11697,Breezy Point,10.29,311,32,1208.5,Yes,December 20-December 26
+10001,Chelsea/NoMad/West Chelsea,2.97,976,29,445.4,Yes,December 24-December 30
+10002,Chinatown/Lower East Side,8.83,2084,184,375.7,Yes,December 24-December 30
+10003,East Village/Gramercy/Greenwich Village,3.48,1898,66,516.9,Yes,December 24-December 30
+10004,Financial District,3.47,202,7,740.2,Yes,December 24-December 30
+10005,Financial District,3.56,337,12,433.9,Yes,December 24-December 30
+10006,Financial District,4.24,118,5,414,Yes,December 24-December 30
+10007,TriBeCa,2.35,298,7,772.4,Yes,December 24-December 30
+10009,Alphabet City/East Village/Stuyvesant Town-Cooper Village,4.73,1798,85,433.9,Yes,December 24-December 30
+10010,Flatiron/Gramercy/Kips Bay,3.1,1615,50,725.6,Yes,December 24-December 30
+10011,Chelsea,3.21,1902,61,526.7,Yes,December 24-December 30
+10012,Greenwich Village/SoHo,2.89,900,26,527,Yes,December 24-December 30
+10013,Hudson Square/Little Italy/SoHo/TriBeCa,3.3,970,32,440.7,Yes,December 24-December 30
+10014,Hudson Square/Meatpacking District/West Village,2.87,1183,34,570.3,Yes,December 24-December 30
+10016,Kips Bay/Murray Hill/NoMad,2.73,2235,61,658,Yes,December 24-December 30
+10017,East Midtown/Murray Hill,5.15,583,30,403.5,Yes,December 24-December 30
+10018,Hell's Kitchen/Midtown Manhattan,4.3,372,16,525.8,Yes,December 24-December 30
+10019,Hell's Kitchen/Midtown Manhattan,3.26,1472,48,546.8,Yes,December 24-December 30
+10021,Lenox Hill/Upper East Side,3.27,1649,54,536.2,Yes,December 24-December 30
+10022,East Midtown,3.07,1596,49,650.6,Yes,December 24-December 30
+10023,Lincoln Square,2.74,2263,62,573,Yes,December 24-December 30
+10024,Upper West Side,3.28,2133,70,496.5,Yes,December 24-December 30
+10025,Manhattan Valley/Morningside Heights/Upper West Side,3.2,3689,118,471.5,Yes,December 24-December 30
+10026,Central Harlem (South),5.04,1191,60,475.9,Yes,December 24-December 30
+10027,Central Harlem (South)/Morningside Heights/West Harlem,3.27,1985,65,351.8,Yes,December 24-December 30
+10028,Upper East Side/Yorkville,3,1764,53,472.9,Yes,December 24-December 30
+10029,East Harlem,6.49,1895,123,323.4,Yes,December 24-December 30
+10030,Central Harlem (North),5.9,746,44,331.4,Yes,December 24-December 30
+10031,Hamilton Heights/West Harlem,8.47,1405,119,318.5,Yes,December 24-December 30
+10032,Washington Heights (South),9.84,1595,157,314,Yes,December 24-December 30
+10033,Washington Heights (North)/Washington Heights (South),10.81,1480,160,307.6,Yes,December 24-December 30
+10034,Inwood/Washington Heights (North),11.73,1117,131,333.8,Yes,December 24-December 30
+10035,East Harlem,7.24,953,69,380.2,Yes,December 24-December 30
+10036,Hell's Kitchen/Midtown Manhattan,4.23,993,42,521.3,Yes,December 24-December 30
+10037,Central Harlem (North)/East Harlem,6.93,563,39,365.5,Yes,December 24-December 30
+10038,Chinatown/Financial District,5.02,638,32,437.4,Yes,December 24-December 30
+10039,Central Harlem (North)/Washington Heights (South),8.57,502,43,250.2,No,December 24-December 30
+10040,Washington Heights (North),9.46,1163,110,398,Yes,December 24-December 30
+10044,Roosevelt Island,3.53,283,10,308.4,Yes,December 24-December 30
+10065,Lenox Hill/Upper East Side,3.32,1115,37,555.6,Yes,December 24-December 30
+10069,Lincoln Square,6.09,279,17,732,Yes,December 24-December 30
+10075,Lenox Hill/Upper East Side,3.56,1012,36,559.8,Yes,December 24-December 30
+10128,Upper East Side/Yorkville,3.45,2204,76,575.5,Yes,December 24-December 30
+10280,Battery Park City,6.94,317,22,481.5,Yes,December 24-December 30
+10282,Battery Park City,1.64,183,3,592.3,Yes,December 24-December 30
+10301,Silver Lake/St. George,9.15,1311,120,516.6,Yes,December 24-December 30
+10302,Elm Park,13.66,615,84,508.5,Yes,December 24-December 30
+10303,Graniteville/Mariner's Harbor/Port Ivory,9.62,915,88,467.7,Yes,December 24-December 30
+10304,New Dorp/Todt Hill,9.64,1670,161,589.7,Yes,December 24-December 30
+10305,Arrochar/Midland Beach/Shore Acres/South Beach Ocean Breeze,12.59,1541,194,590.3,Yes,December 24-December 30
+10306,Lighthouse Hill/Midland Beach/New Dorp/Oakwood,13.7,2190,300,621.1,Yes,December 24-December 30
+10307,Tottenville,9.11,494,45,543.2,Yes,December 24-December 30
+10308,Great Kills,10.45,1110,116,536.5,Yes,December 24-December 30
+10309,Charleston/Prince's Bay/Woodrow,14.2,1211,172,552.5,Yes,December 24-December 30
+10310,Port Richmond/Randall Manor/West Brighton,11.23,917,103,563.1,Yes,December 24-December 30
+10312,Annadale/Rossville,12.26,2145,263,483.2,Yes,December 24-December 30
+10314,Bloomfield/Freshkills Park,12.48,3165,395,541.5,Yes,December 24-December 30
+10451,Concourse/Melrose,10.2,1059,108,268.1,Yes,December 24-December 30
+10452,Concourse/Highbridge,13.06,1753,229,323.1,Yes,December 24-December 30
+10453,Morris Heights/Mount Hope/University Heights,13.19,1789,236,350.8,Yes,December 24-December 30
+10454,Mott Haven/Port Morris,9.8,1020,100,393.9,Yes,December 24-December 30
+10455,Mott Haven,9.45,878,83,257.8,No,December 24-December 30
+10456,Claremont/Morrisania,9.32,1738,162,239.3,No,December 24-December 30
+10457,Belmont/Claremont/Mount Hope/Tremont,10.74,1630,175,269.9,Yes,December 24-December 30
+10458,Belmont/Fordham University/Kingsbridge,12.48,1683,210,307,Yes,December 24-December 30
+10459,Charlotte Gardens/Hunts Point,12.86,1065,137,286.2,Yes,December 24-December 30
+10460,Charlotte Gardens/Tremont/Van Nest/West Farms,12.14,1161,141,241.2,No,December 24-December 30
+10461,Morris Park/Pelham Bay/Westchester Square,12.12,1411,171,368.7,Yes,December 24-December 30
+10462,Parkchester/Pelham Parkway/Van Nest/Westchester Square,10.14,1706,173,282.8,Yes,December 24-December 30
+10463,Kingsbridge/Marble Hill/Riverdale/Spuyten Duyvil,8.92,1726,154,344.4,Yes,December 24-December 30
+10464,City Island,7.04,142,10,396.7,Yes,December 24-December 30
+10465,Country Club/Throgs Neck,12.49,1121,140,359.4,Yes,December 24-December 30
+10466,Edenwald/Wakefield,8.03,1744,140,295.9,Yes,December 24-December 30
+10467,Allerton/Norwood/Pelham Parkway/Williamsbridge,9.5,2273,216,320.4,Yes,December 24-December 30
+10468,Fordham/Kingsbridge/University Heights,14.38,1655,238,254.5,No,December 24-December 30
+10469,Allerton/Baychester/Pelham Gardens/Williamsbridge,10.23,1691,173,381.5,Yes,December 24-December 30
+10470,Wakefield/Woodlawn,18.41,429,79,413.6,Yes,December 24-December 30
+10471,Fieldston/North Riverdale/Riverdale,8.36,766,64,503.7,Yes,December 24-December 30
+10472,Soundview,14.3,1350,193,288.3,Yes,December 24-December 30
+10473,Castle Hill/Clason Point/Soundview,9.35,1583,148,345.1,Yes,December 24-December 30
+10474,Hunts Point,15.03,286,43,392.5,Yes,December 24-December 30
+10475,Co-op City/Edenwald,7.34,995,73,327.6,Yes,December 24-December 30
+11004,Bellerose/Douglaston-Little Neck,12.44,418,52,380,Yes,December 24-December 30
+11101,Astoria (South)/Long Island City/Sunnyside,5.71,1348,77,515.8,Yes,December 24-December 30
+11102,Astoria (North),6.49,1001,65,499.3,Yes,December 24-December 30
+11103,Astoria (North)/Astoria (South),8.15,1129,92,469.4,Yes,December 24-December 30
+11104,Sunnyside,6.59,834,55,515,Yes,December 24-December 30
+11105,Ditmars Steinway,6.66,991,66,395.1,Yes,December 24-December 30
+11106,Astoria (South),6.55,1191,78,446.2,Yes,December 24-December 30
+11109,Long Island City,1.71,293,5,832.9,Yes,December 24-December 30
+11201,Brooklyn Heights/DUMBO/Downtown Brooklyn,3.06,2318,71,473.6,Yes,December 24-December 30
+11203,East Flatbush (North)/East Flatbush (South),8.44,1717,145,312.4,Yes,December 24-December 30
+11204,Bensonhurst/Mapleton,14.45,1640,237,334.7,Yes,December 24-December 30
+11205,Bedford-Stuyvesant (West)/Clinton Hill/Fort Greene,3.7,1458,54,456.6,Yes,December 24-December 30
+11206,Williamsburg (South),7.67,1955,150,261.8,Yes,December 24-December 30
+11207,Cypress Hills/East New York,9.58,2077,199,285.3,Yes,December 24-December 30
+11208,Cypress Hills/East New York,11.47,2032,233,296.1,Yes,December 24-December 30
+11209,Bay Ridge/Fort Hamilton,9.01,1976,178,454.7,Yes,December 24-December 30
+11210,Flatlands/Midwood,8.97,1371,123,283.2,Yes,December 24-December 30
+11211,East Williamsburg/Williamsburg (North)/Williamsburg (South),4.32,3126,135,427.9,Yes,December 24-December 30
+11212,Ocean Hill-Brownsville,8.83,1811,160,323.1,Yes,December 24-December 30
+11213,Crown Heights (East),7.03,1551,109,272.4,Yes,December 24-December 30
+11214,Bath Beach/Bensonhurst/Gravesend,13.16,2279,300,367.4,Yes,December 24-December 30
+11215,Gowanus/Park Slope/Windsor Terrace,3.12,2695,84,613.3,Yes,December 24-December 30
+11216,Bedford-Stuyvesant (West)/Crown Heights (West),4.35,1678,73,344.7,Yes,December 24-December 30
+11217,Boerum Hill/Park Slope,2.8,1537,43,491.8,Yes,December 24-December 30
+11218,Kensington/Windsor Terrace,8.37,1972,165,444.6,Yes,December 24-December 30
+11219,Borough Park,15.94,1656,264,308.6,Yes,December 24-December 30
+11220,Sunset Park,15.64,2443,382,381.6,Yes,December 24-December 30
+11221,Bedford-Stuyvesant (East)/Bushwick,6.56,2209,145,347.5,Yes,December 24-December 30
+11222,Greenpoint,3.33,1291,43,492.8,Yes,December 24-December 30
+11223,Gravesend/Homecrest,12.47,2189,273,395.1,Yes,December 24-December 30
+11224,Brighton Beach/Coney Island/Seagate,12.55,1163,146,291.8,Yes,December 24-December 30
+11225,Crown Heights (West)/Prospect Lefferts Gardens,6.55,1649,108,342.5,Yes,December 24-December 30
+11226,Flatbush/Prospect Lefferts Gardens,7.17,2413,173,344.1,Yes,December 24-December 30
+11228,Bath Beach/Dyker Heights,12.67,1365,173,420.2,Yes,December 24-December 30
+11229,Gerritsen Beach/Homecrest/Sheepshead Bay,13.83,2183,302,380.7,Yes,December 24-December 30
+11230,Midwood,13.68,2522,345,432,Yes,December 24-December 30
+11231,Carroll Gardens/Cobble Hill/Red Hook,3.46,1502,52,698.3,Yes,December 24-December 30
+11232,Sunset Park,13.17,835,110,483.6,Yes,December 24-December 30
+11233,Bedford-Stuyvesant (East)/Ocean Hill-Brownsville,5.79,1916,111,454.8,Yes,December 24-December 30
+11234,Bergen Beach/Flatlands/Marine Park/Mill Basin,8.63,2225,192,308.3,Yes,December 24-December 30
+11235,Brighton Beach/Manhattan Beach/Sheepshead Bay,15.9,2170,345,360.6,Yes,December 24-December 30
+11236,Canarsie,8.55,2129,182,309.9,Yes,December 24-December 30
+11237,Bushwick/East Williamsburg,6.8,1088,74,287.5,Yes,December 24-December 30
+11238,Clinton Hill/Prospect Heights,3.36,2085,70,543.4,Yes,December 24-December 30
+11239,East New York,7.77,386,30,391.6,Yes,December 24-December 30
+11354,Flushing/Murray Hill,10.29,1030,106,261.5,Yes,December 24-December 30
+11355,Flushing/Murray Hill/Queensboro Hill,14.88,1640,244,287.9,Yes,December 24-December 30
+11356,College Point,13.82,615,85,363.8,Yes,December 24-December 30
+11357,Whitestone,8.36,1160,97,377.1,Yes,December 24-December 30
+11358,Auburndale/Murray Hill,8.44,983,83,397,Yes,December 24-December 30
+11360,Bayside (North),6.87,553,38,362.3,Yes,December 24-December 30
+11361,Bayside (North)/Bayside (South),6.86,656,45,398.2,Yes,December 24-December 30
+11362,Douglaston-Little Neck,7.46,362,27,281.7,Yes,December 24-December 30
+11363,Douglaston-Little Neck,9.55,199,19,490,Yes,December 24-December 30
+11364,Bayside (South)/Oakland Gardens,9.44,890,84,392.3,Yes,December 24-December 30
+11365,Auburndale/Fresh Meadows/Pomonok/Utopia,10.63,1082,115,369.7,Yes,December 24-December 30
+11366,Fresh Meadows/Hillcrest,7.34,395,29,373,Yes,December 24-December 30
+11367,Kew Gardens Hills/Pomonok,11.27,1136,128,383.5,Yes,December 24-December 30
+11368,Corona/North Corona,11.55,2251,260,315.3,Yes,December 24-December 30
+11369,Airport/East Elmhurst,10.9,927,101,401.5,Yes,December 24-December 30
+11370,Jackson Heights/Rikers Island,14.63,629,92,270.6,Yes,December 24-December 30
+11372,Jackson Heights,6.61,1633,108,390.6,Yes,December 24-December 30
+11373,Elmhurst,10.04,2201,221,352.4,Yes,December 24-December 30
+11374,Rego Park,13.13,1310,172,471.1,Yes,December 24-December 30
+11375,Forest Hills,7.19,2057,148,428,Yes,December 24-December 30
+11377,Woodside,10.7,2543,272,439,Yes,December 24-December 30
+11378,Maspeth,9.51,957,91,348.6,Yes,December 24-December 30
+11379,Middle Village,12.25,1004,123,368.5,Yes,December 24-December 30
+11385,Glendale/Ridgewood,10.55,2664,281,359,Yes,December 24-December 30
+11411,Cambria Heights,7.49,454,34,369.5,Yes,December 24-December 30
+11412,St. Albans,7.38,1003,74,391.1,Yes,December 24-December 30
+11413,Laurelton/Rosedale,6.95,964,67,326.3,Yes,December 24-December 30
+11414,Hamilton Beach/Howard Beach/Lindenwood,11.11,792,88,430.2,Yes,December 24-December 30
+11415,Kew Gardens,7.89,583,46,397.4,Yes,December 24-December 30
+11416,Ozone Park,14.64,567,83,318.3,Yes,December 24-December 30
+11417,Ozone Park,12.18,813,99,389.8,Yes,December 24-December 30
+11418,Richmond Hill,9.31,1042,97,399.1,Yes,December 24-December 30
+11419,Richmond Hill/South Ozone Park,16.32,1360,222,435,Yes,December 24-December 30
+11420,South Ozone Park,13.82,1360,188,388.8,Yes,December 24-December 30
+11421,Woodhaven,12.67,876,111,317.1,Yes,December 24-December 30
+11422,Rosedale,7.2,792,57,382.8,Yes,December 24-December 30
+11423,Hollis/Holliswood,10.01,829,83,382.2,Yes,December 24-December 30
+11426,Bellerose,11.85,464,55,367,Yes,December 24-December 30
+11427,Bellerose/Hollis Hills/Holliswood,12.41,677,84,398.8,Yes,December 24-December 30
+11428,Queens Village,9.22,477,44,366,Yes,December 24-December 30
+11429,Queens Village,7.76,747,58,409.9,Yes,December 24-December 30
+11432,Hillcrest/Jamaica Estates/Jamaica Hills,11.26,1439,162,419.7,Yes,December 24-December 30
+11433,Jamaica,10.13,829,84,325.8,Yes,December 24-December 30
+11434,Airport/South Jamaica/Springfield Gardens/St. Albans,6.38,1582,101,301.1,Yes,December 24-December 30
+11435,Briarwood/Jamaica,10.85,1419,154,301.3,Yes,December 24-December 30
+11436,South Jamaica/South Ozone Park,11.32,486,55,359.2,Yes,December 24-December 30
+11691,Edgemere/Far Rockaway,12.77,1598,204,348.5,Yes,December 24-December 30
+11692,Arverne/Edgemere,10.3,466,48,328.1,Yes,December 24-December 30
+11693,Arverne/Broad Channel,8.79,330,29,426.1,Yes,December 24-December 30
+11694,Belle Harbor-Neponsit/Rockaway Park,7.43,727,54,519.7,Yes,December 24-December 30
+11697,Breezy Point,11.25,160,18,677.9,Yes,December 24-December 30
