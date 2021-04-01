@@ -28,6 +28,10 @@ Alternatively, you can download a single file. Click on a file you would like to
 
 ***
 
+## Important: Update on March 24, 2021
+
+As indicated in commit notes from 3/19 and 3/20, there were technical issues in the data transmission from New York State to New York City. This resulted in counts that were lower than expected for several days. While this transmission error was being fixed, data updates were paused for 3/21, 3/22, and 3/23. Data updated on 3/24 include backfill for days with low counts and days with no updates. Differences in counts in cumulative files from 3/20 to 3/24 reflect events that have happened over a broad recent time period and should not be interpreted as events that have happened since the previous update. As always, data are preliminary and subject to change, and dates are backfilled as additional data come in.
+
 ## Important: Changes on March 3, 2021
 
 The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on March 3, 2021. These include:
@@ -168,7 +172,7 @@ There are three main types of COVID-19 tests that are reported to the Health Dep
 
 - The Health Department consistently receives electronic reports *only* for COVID-19 tests that are conducted in laboratories. Point-of-care and at-home tests may be conducted in a setting outside of a clinical laboratory; these settings often do not have the infrastructure for electronically reporting directly to the Health Department. While providers and facilities are required to report results from point-of-care and at-home tests to the Health Department within 24 hours, these data are incomplete.
 
-- Most of the data in this repository include patients who reside in congregate facilities, such as correctional facilities and long-term care facilities. While data reported from these facilities may sometimes influence local trends, cases reported from these facilities do not necessarily represent community-based transmission. The only data that exclude patients in congregate facilities are in [pp-by-modzcta.csv](https://github.com/nychealth/coronavirus-data/tree/master/latest#pp-by-modzctacsv). 
+- Most of the data in this repository include patients who reside in congregate facilities, such as correctional facilities and long-term care facilities. While data reported from these facilities may sometimes influence local trends, cases reported from these facilities do not necessarily represent community-based transmission. The only data that exclude patients in congregate facilities are in [pp-by-modzcta.csv](https://github.com/nychealth/coronavirus-data/tree/master/latest#pp-by-modzctacsv) and [last7days-by-modzcta.csv](https://github.com/nychealth/coronavirus-data/tree/master/latest#last7days-by-modzctacsv). 
 
 - Because these data only provide information on people tested and not everyone who may have had COVID-19 in NYC, caution needs to be used when interpreting testing data. For example, people who are tested for antibodies may be more likely to test positive because people who were previously ill are preferentially seeking testing, in addition to the testing of persons with higher exposure (e.g., health care workers, first responders). Therefore, these data may not reflect antibody prevalence among all New Yorkers.  
 
