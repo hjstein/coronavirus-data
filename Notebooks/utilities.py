@@ -13,19 +13,23 @@ def plot_multi(data, cols=None, spacing=.1, **kwargs):
                      '_get_standard_colors')(num_colors=len(cols))
 
     # First axis
-    ax = data.loc[:, cols[0]].plot(label=cols[0], color=colors[0], **kwargs)
-    ax.set_ylabel(ylabel=cols[0])
+    color = colors[0]
+    ax = data.loc[:, cols[0]].plot(label=cols[0], color=color, **kwargs)
+    ax.set_ylabel(ylabel=cols[0], color=color)
+    ax.tick_params(axis="y", labelcolor=color)
     lines, labels = ax.get_legend_handles_labels()
 
     for n in range(1, len(cols)):
         # Multiple y-axes
         ax_new = ax.twinx()
         ax_new.spines['right'].set_position(('axes', 1 + spacing * (n - 1)))
+        color = colors[n % len(colors)]
         data.loc[:, cols[n]].plot(ax=ax_new,
                                   label=cols[n],
-                                  color=colors[n % len(colors)],
+                                  color=color,
                                   **kwargs)
-        ax_new.set_ylabel(ylabel=cols[n])
+        ax_new.set_ylabel(ylabel=cols[n], color=color)
+        ax_new.tick_params(axis="y", labelcolor=color)
 
         # Proper legend position
         line, label = ax_new.get_legend_handles_labels()
