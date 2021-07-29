@@ -1,4 +1,4 @@
-from pandas import plotting
+import pandas as pd
 from matplotlib import pyplot as plt
 
 
@@ -44,3 +44,28 @@ def plot_multi(data, cols=None, spacing=.1, **kwargs):
     ax.legend(lines, labels, loc=0)
 
     return ax
+
+
+def calc_rate_std(dat, start, end, columns, denom):
+    """Compute std rates for data with shifts
+    """
+    rng = range(start, end)
+    newcols = []
+    for col in columns:
+        newcols.append(f"{col}/{denom}")
+
+    stds = []
+    for shift in rng:
+        for col, newcol in zip(columns, newcols):
+            dat[newcol] = dat[col].shift(shift)/dat[denom]
+
+        stats = dat[newcols].describe()
+
+        stds.append(stats.loc["std"].values)
+
+    df = pd.DataFrame(columns=newcols, data=stds)
+    df["Shift"] = rng
+
+    df.set_index("Shift", inplace=True)
+
+    return df

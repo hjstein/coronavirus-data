@@ -16,6 +16,11 @@ This Readme includes:
 
 ***
 
+## [Notebooks/README.md](Notebooks/README.md)
+
+Contains various analyses of the data -- accuracy analysis and
+relationship between infections, hospitalizations and deaths.
+
 ## How to use this repository
 This repository contains CSV (comma separated values) files of data, and Readme files with important documentation of the data. If you are unfamiliar with Github, you may find these instructions helpful:
 
