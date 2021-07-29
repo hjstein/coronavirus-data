@@ -1,4 +1,5 @@
 from pandas import plotting
+from matplotlib import pyplot as plt
 
 
 def plot_multi(data, cols=None, spacing=.1, **kwargs):
@@ -9,8 +10,10 @@ def plot_multi(data, cols=None, spacing=.1, **kwargs):
         cols = data.columns
     if len(cols) == 0:
         return
-    colors = getattr(getattr(plotting, '_matplotlib').style,
-                     '_get_standard_colors')(num_colors=len(cols))
+    # colors = getattr(getattr(plotting, '_matplotlib').style,
+    #                  '_get_standard_colors')(num_colors=len(cols))
+
+    colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
 
     # First axis
     color = colors[0]
