@@ -43,4 +43,4 @@ jupyter nbconvert --to notebook --inplace --execute Notebooks/Current.ipynb
 
 # Update wave analysis
 
-jupyter nbconvert --to notebook --inplace --execute Notebooks/Waves.ipynb
+jupyter nbconvert --ExecutePreprocessor.timeout=90 --to notebook --inplace --execute Notebooks/Waves.ipynb
