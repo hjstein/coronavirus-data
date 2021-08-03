@@ -1,6 +1,53 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
+wave = {
+    "one": {"start": "2020-01-01",
+            "end": "2020-07-01"},
+    "two": {"start": "2020-09-01",
+            "end": "2021-07-01"},
+    "three": {"start": "2021-07-01",
+              "end": "2022-12-31"}}
+
+count_cols = ["NEW_COVID_CASE_COUNT",
+              "HOSPITALIZED_COUNT",
+              "DEATH_COUNT"]
+
+rolling_avg_cols = ["Cases/day, 7 day avg",
+                    "Hospitalized/day, 7 day avg",
+                    "Deaths/day, 7 day avg"]
+
+
+def load_data(file="../trends/data-by-day.csv"):
+    '''Load case data'''
+    dat = pd.read_csv("../trends/data-by-day.csv")
+    dat.rename(columns={"CASE_COUNT": "NEW_COVID_CASE_COUNT",
+                        "date_of_interest": "DATE_OF_INTEREST"},
+               inplace=True)
+    dat["DATE_OF_INTEREST"] = pd.to_datetime(dat["DATE_OF_INTEREST"])
+    dat = dat.set_index("DATE_OF_INTEREST")
+
+    return dat
+
+
+def add_averages(dat,
+                 in_cols=count_cols,
+                 out_cols=rolling_avg_cols,
+                 window_size="7D"):
+    '''Add rolling averages for specified columns
+    '''
+
+    for incol, outcol in zip(in_cols, out_cols):
+        dat[outcol] = dat[incol].rolling(window=window_size).mean()
+
+    return dat
+
+
+def get_wave(waveName):
+    '''Get start and end of specified wave
+    '''
+    return wave[waveName]["start"], wave[waveName]["end"]
+
 
 def plot_multi(data, cols=None, spacing=.1, **kwargs):
     '''Plot columns, each with a separate Y axis
