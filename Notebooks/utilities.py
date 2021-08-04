@@ -17,6 +17,10 @@ rolling_avg_cols = ["Cases/day, 7 day avg",
                     "Hospitalized/day, 7 day avg",
                     "Deaths/day, 7 day avg"]
 
+aggregate_cols = ["Total cases",
+                  "Total hospitalized",
+                  "Total deaths"]
+
 
 def load_data(file="../trends/data-by-day.csv"):
     '''Load case data'''
@@ -39,6 +43,18 @@ def add_averages(dat,
 
     for incol, outcol in zip(in_cols, out_cols):
         dat[outcol] = dat[incol].rolling(window=window_size).mean()
+
+    return dat
+
+
+def add_aggregates(dat,
+                   in_cols=count_cols,
+                   out_cols=aggregate_cols):
+    '''Add aggregate totals for specified columns
+    '''
+
+    for incol, outcol in zip(in_cols, out_cols):
+        dat[outcol] = dat[incol].cumsum()
 
     return dat
 
@@ -103,10 +119,11 @@ def calc_rate_std(dat, start, end, columns, denom):
 
     stds = []
     for shift in rng:
+        ratios = pd.DataFrame()
         for col, newcol in zip(columns, newcols):
-            dat[newcol] = dat[col].shift(shift)/dat[denom]
+            ratios[newcol] = dat[col]/dat[denom].shift(shift)
 
-        stats = dat[newcols].describe()
+        stats = ratios[newcols].describe()
 
         stds.append(stats.loc["std"].values)
 
