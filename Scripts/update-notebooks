@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Script for updating notebooks.  Use after updating data and
+# regenerating the history.
+
+notebooks="Analysis.ipynb Growth.ipynb Reporting.ipynb TalkSlides.ipynb Current.ipynb Waves.ipynb"
+
+for notebook in ${notebooks} ; do
+    jupyter nbconvert --ExecutePreprocessor.timeout=90 --to notebook --inplace --execute "Notebooks/${notebook}"
+done

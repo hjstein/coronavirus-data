@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Script for updating data.  After pulling and merging, it will
+# regenerate the history file
+
+# First, pull and merge latest data first, as in:
+#    git fetch --all -p
+#    git merge nychealth/master
+
+# Then, can run this script.  Or just run update to regenerate the
+# history and update the analyses.
+
+# Clear out previous datasets
+rm all_versions_exported/*
+
+# Pull old history
+Scripts/git-export-all-file-versions ./case-hosp-death.csv
+
+# Pull new history
+Scripts/git-export-all-file-versions ./trends/data-by-day.csv
+
+# Generate history.csv file:
+python Scripts/generate-history.py

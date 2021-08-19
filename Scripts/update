@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Script for updating data.  After pulling and merging, it will
-# regenerate the history & update the notebooks.
+# Script for updating data and analyses.  After pulling and merging,
+# it will regenerate the history & update the notebooks.
 
 # First, pull and merge latest data first, as in:
 #    git fetch --all -p
@@ -9,38 +9,8 @@
 
 # Then run this script
 
-# Clear out previous datasets
-rm all_versions_exported/*
+# Generate history file
+Scripts/regenerate-history
 
-# Pull old history
-Scripts/git-export-all-file-versions ./case-hosp-death.csv
-
-# Pull new history
-Scripts/git-export-all-file-versions ./trends/data-by-day.csv
-
-# Generate history.csv file:
-python Scripts/generate-history.py
-
-# Update Analysis:
-
-jupyter nbconvert --to notebook --inplace --execute Notebooks/Analysis.ipynb
-
-# Update Growth:
-
-jupyter nbconvert --to notebook --inplace --execute Notebooks/Growth.ipynb
-
-# Update report dt vs incident date:
-
-jupyter nbconvert --to notebook --inplace --execute Notebooks/Reporting.ipynb
-
-# Update graphs for slides
-
-jupyter nbconvert --to notebook --inplace --execute Notebooks/TalkSlides.ipynb
-
-# Update current view
-
-jupyter nbconvert --to notebook --inplace --execute Notebooks/Current.ipynb
-
-# Update wave analysis
-
-jupyter nbconvert --ExecutePreprocessor.timeout=90 --to notebook --inplace --execute Notebooks/Waves.ipynb
+# Update analyses
+Scripts/update-notebooks
