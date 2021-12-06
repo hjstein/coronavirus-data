@@ -19,5 +19,8 @@ Scripts/git-export-all-file-versions ./case-hosp-death.csv
 # Pull new history
 Scripts/git-export-all-file-versions ./trends/data-by-day.csv
 
+# Remove bad history
+rm all_versions_exported/*2-Dec-2021T15_43_29.f65e89990d413b75e97ab8d01fe8ad6171d6f0c2.data-by-day.csv
+
 # Generate history.csv file:
 python Scripts/generate-history.py
