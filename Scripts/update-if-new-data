@@ -1,0 +1,84 @@
+#!/bin/bash
+
+usage () {
+    echo "
+update-if-new-data [-f] [-n]
+
+Update repository with latest data, rerun analysis and push results
+
+  -f - Force - Update even if master already has results
+  -n - No commit, no push (dry run)
+  -h - Help (this msg)
+"
+
+}
+
+dryrun=0
+force=0
+
+while getopts "fnh" opt ; do
+    case "$opt" in
+    h) usage
+       exit 1 ;;
+    n) dryrun=1 ;;
+    f) force=1 ;;
+    *) echo "Switch -$OPTARG unrecognized."
+       usage
+       exit 2 ;;
+    esac
+done
+
+let i=$OPTIND-1
+shift $i
+
+msg () {
+    echo `date`: "$@"
+}
+
+err () {
+    code="$1"
+    if [ $code -ne 0 ] ; then
+	shift
+	msg code="$code": "$@"
+	exit $code
+    fi
+}
+
+msg Starting full-update
+
+git pull
+err $? Pull failed.
+
+git fetch --all -p
+err $? Fetch failed.
+
+git rev-list master | grep $(git rev-parse nychealth/master)
+code=$?
+if [ $code -ne 0 ] ; then
+    msg "New unprocessed commit found in nychealth/master."
+    msg "Proceeding to merge."
+else
+    if [ $force -eq 1 ] ; then
+	msg "All commits are processed, but forcing processing"
+    else
+	err 9 Nothing to merge.  Done.
+    fi
+fi
+
+exit
+
+git merge --no-edit nychealth/master
+err $? Merge failed.
+
+./Scripts/update
+err $? Update failed.
+
+if [ $dryrun -ne 0 ] ; then
+    err 3 "Dry run -- not committing and pushing results."
+fi
+
+git commit -a -m "Updated with latest data"
+err $? Commit failed.
+
+git push
+err $? Push failed.
