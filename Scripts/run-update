@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo `date`: Updating...
+
+cd /home/ubuntu/coronavirus-data
+
+if [ -f run-update.lock ] ; then
+    echo "Update in progress:"
+    ls -l run-update.lock
+    echo "Skipping update."
+    exit 1
+fi
+
+touch run-update.lock
+
+trap "rm run-update.lock" EXIT
+
+source ~/venv/bin/activate
+
+./Scripts/update-if-new-data
