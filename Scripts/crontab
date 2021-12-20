@@ -2,9 +2,4 @@ SHELL=/bin/bash
 # MAILTO=hjstein@gmail.com
 MAILTO=hjstein
 
-# 0,10,20,30,50 * * * * $HOME/bin/run-update >>$HOME/Updatelog/coronavirus-data-`/bin/date +\%Y\%m\%d-\%H:\%M:\%S`.log 2>&1
 */5 * * * * $HOME/bin/run-update >>$HOME/Updatelog/coronavirus-data-`/bin/date +\%Y\%m\%d-\%H:\%M:\%S`.log 2>&1
-# * * * * * echo hi >>$HOME/Updatelog/hi.log 2>&1
-# * * * * * echo hi2 >>"$HOME/Updatelog/hi2-`/bin/date +\%Y\%m\%d-\%H:\%M:\%S`.log" 2>&1
-# * * * * * echo `date` hi >>$HOME/Updatelog/hi3.log 2>&1
-# * * * * * echo `/bin/date` hi >>$HOME/Updatelog/hi4.log 2>&1
