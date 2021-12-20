@@ -65,8 +65,6 @@ else
     fi
 fi
 
-exit
-
 git merge --no-edit nychealth/master
 err $? Merge failed.
 
