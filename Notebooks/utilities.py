@@ -2,12 +2,19 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 wave = {
-    "one": {"start": "2020-01-01",
-            "end": "2020-07-01"},
-    "two": {"start": "2020-09-01",
-            "end": "2021-07-01"},
-    "three": {"start": "2021-07-01",
-              "end": "2022-12-31"}}
+    1: {"start": "2020-01-01",
+        "end": "2020-07-01"},
+    2: {"start": "2020-09-01",
+        "end": "2021-07-01"},
+    3: {"start": "2021-07-01",
+        "end": "2022-11-01"},
+    4: {"start": "2021-11-01",
+        "end": "2022-12-31"}}
+
+old_wave_names = {"one": 1,
+                  "two": 2,
+                  "three": 3,
+                  "four": 4}
 
 count_cols = ["NEW_COVID_CASE_COUNT",
               "HOSPITALIZED_COUNT",
@@ -62,7 +69,12 @@ def add_aggregates(dat,
 def get_wave(waveName):
     '''Get start and end of specified wave
     '''
-    return wave[waveName]["start"], wave[waveName]["end"]
+
+    w = old_wave_names.get(waveName)
+    if w is None:
+        w = waveName
+
+    return wave[w]["start"], wave[w]["end"]
 
 
 def plot_multi(data, cols=None, spacing=.1, **kwargs):
