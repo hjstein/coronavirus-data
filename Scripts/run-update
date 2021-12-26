@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo `date`: Updating...
+echo `date`: Starting $0
 
 cd /home/ubuntu/coronavirus-data
 
@@ -18,3 +18,5 @@ trap "rm run-update.lock" EXIT
 source ~/venv/bin/activate
 
 ./Scripts/update-if-new-data
+
+echo `date`: $0 completed
