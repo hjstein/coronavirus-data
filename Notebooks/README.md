@@ -13,7 +13,7 @@ Analysis of data, including:
  - 7 day rolling average of above
  - Historical analysis of reports
 
-## [Waves.ipynb](Waves.ipynb)
+## [Rates.ipynb](Rates.ipynb)
 
 Analyzing rate of hospitalizations per infection and deaths per infection.
 
