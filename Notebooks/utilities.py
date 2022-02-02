@@ -7,14 +7,16 @@ wave = {
     2: {"start": "2020-09-01",
         "end": "2021-07-01"},
     3: {"start": "2021-07-01",
-        "end": "2021-11-01"},
+        "end": "2021-11-01",
+        "name": "Delta"},
     4: {"start": "2021-11-01",
-        "end": "2022-12-31"}}
+        "end": "2022-12-31",
+        "name": "Omicron"}}
 
-old_wave_names = {"one": 1,
-                  "two": 2,
-                  "three": 3,
-                  "four": 4}
+old_wave_ids = {"one": 1,
+                "two": 2,
+                "three": 3,
+                "four": 4}
 
 count_cols = ["NEW_COVID_CASE_COUNT",
               "HOSPITALIZED_COUNT",
@@ -66,15 +68,30 @@ def add_aggregates(dat,
     return dat
 
 
-def get_wave(waveName):
+def get_wave_id(waveId):
+    '''Get new wave id.  Convert to new if old is supplied
+    '''
+    w = old_wave_ids.get(waveId)
+    if w is None:
+        w = waveId
+
+    return w
+
+
+def get_wave(waveId):
     '''Get start and end of specified wave
     '''
 
-    w = old_wave_names.get(waveName)
-    if w is None:
-        w = waveName
+    w = get_wave_id(waveId)
 
     return wave[w]["start"], wave[w]["end"]
+
+
+def get_wave_name(waveId):
+    '''Get name of specified wave
+    '''
+
+    return wave[get_wave_id(waveId)]
 
 
 def plot_multi(data, cols=None, spacing=.1, **kwargs):
