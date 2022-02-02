@@ -29,25 +29,29 @@ My 4/21 analysis of the NYC COVID-19 data
 shows a graph demonstrating the extent to which missing
 data has a major impact on the reported incident
 counts.\nocite{nyc2020data,Stein2020nycdata,Stein2020owiddata,owid2020data}
-Figure~\ref{fig:daily} has an updated version.\nocite{Stein2020Seem}\nocite{Stein2020Ray}
+Figure~\ref{fig:daily} has the data around the first wave's peak.\nocite{Stein2020Seem}\nocite{Stein2020Ray}
 
-\begin{figure}[H]
+\begin{figure}[!htb]
   \centering
-  \includegraphics[width=\textwidth]{../Notebooks/theFullStory.png}
-  \caption{NYC COVID-19 cases per day from each daily report.  Data
-    from the NYC COVID-19 data github repository.}
+  \includegraphics[width=\textwidth]{../Notebooks/Wave1Peak.png}
+  \caption[NYC COVID-19 cases per day, each daily report, first
+  peak]{NYC COVID-19 cases per day from each daily report around the
+    peak of the first wave.  Data from the NYC COVID-19 data github
+    repository.}
   \label{fig:daily}
 \end{figure}
 
-As you can see, the peak hasn't moved from April 6th, but we're still
-getting data for dates as far back as March!
-Figure~\ref{fig:smoothDaily} has the updated 7 day average report,
-which shows more clearly that three days ago additional incidents were
-reported for every date going back as far as March 25th.
+It can take a month or more before all of the data for
+a given date finally arrives.  Moreover, the final count for a given date
+can be five times larger than the initial count.
+Figure~\ref{fig:smoothDaily} has the 7 day average report for the same
+time period.  The 7 day averaging adjusts for the weekend dip that the
+data has, and reduces the discrepancy between the first and final
+count, but still shows substantial lags in data collection.
 
-\begin{figure}[H]
+\begin{figure}[!htb]
   \centering
-  \includegraphics[width=\textwidth]{../Notebooks/fullNYCSmoothed.png}
+  \includegraphics[width=\textwidth]{../Notebooks/Wave1SmoothedPeak.png}
   \caption{7-day rolling average of NYC COVID-19 cases per day from each daily report.  Data
     from the NYC COVID-19 data github repository.}
   \label{fig:smoothDaily}
@@ -67,9 +71,9 @@ My first stop was the
   repository}\nocite{owid2020data}.  I
 \href{https://github.com/hjstein/covid-19-data}{forked the
   repository}, imported my analysis code, extracted the historical
-reports and graphed the histories.  The results are in figure~\ref{fig:owid}.
+reports and graphed the histories.  The results are in Figure~\ref{fig:owid}.
 
-\begin{figure}[H]
+\begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth]{../Notebooks/USACasesPerDayRawNoLegend.png}
   \caption{USA COVID-19 cases per day from each daily report.  Data
@@ -77,19 +81,19 @@ reports and graphed the histories.  The results are in figure~\ref{fig:owid}.
   \label{fig:owid}
 \end{figure}
 
-It's nice that the 7 day average is dropping, but where are the new
-reports?  There are no updates -- no missing data!  How can it be
-that the total cases for a given day are completely known the
-following day and never need to be updated?
-Given what we know about the NYC data, and given
-that the NYC data is large part of the USA data, it can't possibly be
-the case that on a given day they know exactly the number of cases the
-day before.  Something odd must be going on.
+I was surprised to find that there are no updates to past records!
+How can it be that the total cases for a given day are completely
+known the following day and never need to be updated?  Given what we
+know about the NYC data, and given that the NYC data is a large part
+of the USA data, it can't possibly be the case that on a given day
+they know exactly the number of cases the day before.  Something odd
+must be going on.
 
 So I entered an
 \href{https://github.com/owid/covid-19-data/issues/41}{issue on the
-  OWID COVID-19 github repository}.  I asked for clarification of how they generate the
-data.  Edouard Mathieu, Data Manager at OWID, responded:
+  OWID COVID-19 github repository}.  I asked for clarification of how
+they generate the data.  Edouard Mathieu, Data Manager at OWID,
+responded:
 \begin{quotation}
   For confirmed cases and deaths, our data comes from the European
   Centre for Disease Prevention and Control (ECDC). We discuss how and
@@ -109,9 +113,9 @@ Disease Prevention and Control, and the ECDC doesn't collect data by
 incident date, it collects the data by the date on which it receives
 the reports.
 
-Further research showed that it's not just the ECDC.  The
-\href{https://github.com/CSSEGISandData/COVID-19}{Johns Hopkins
-  University COVID-19 repository}, and the
+Investigating other data hubs, I discovered that it's not just the
+ECDC.  The \href{https://github.com/CSSEGISandData/COVID-19}{Johns
+  Hopkins University COVID-19 repository}, and the
 \href{https://github.com/nytimes/covid-19-data}{New York Times
   COVID-19 repository} also record instances by report receipt date
 instead of by incident date.  So these databases, the major sources of
@@ -194,28 +198,35 @@ The problem is that scientists are using these numbers to model the
 disease, the government is using these numbers to plan
 how to address the risks, and the media is reporting about the
 numbers.  So it potentially reduces the accuracy of the models, interferes with
-planning and leads to hysterical media reports about irrelevant rising
+planning and leads to hysterical media reports about fictitious rising
 and falling of death counts.
 
-How big is the effect, really?  We can determine this for data sets
-where we have both the report dates as well as the incident dates.  So
-I did this for the NYC data.  I backing out what it would look like if
-it was recorded by report date instead of by incident date.
-Figures~\ref{fig:rptvsdataraw} and \ref{fig:rptvsdata7day} give the
-results.
+How big is the effect, really?  To start, I calculated some simulated
+results.  I consider the true counts to follow a normal distribution,
+and compare them to what happens if 30\% or 50\% of the data comes in
+late (Figure~\ref{fig:sim}).  It can have a substantial impact.
 
-\begin{figure}[H]
+We can go further.  The NYC data has both the reporting dates
+and the incident dates, so I backed out what it would look like if it
+was recorded by report date instead of by incident
+date. Figures~\ref{fig:peak1} and \ref{fig:omicron} compare the
+report date results to the incident date results for the first peak
+and for the Omicron peak.
+
+\begin{figure}[!htb]
   \centering
-  \includegraphics[width=\textwidth]{../Notebooks/casesPerDayHistoryRptDtVsInDtRaw.png}
-  \caption{NYC cases per day by incident date vs by reporting date.}
-  \label{fig:rptvsdataraw}
+  \includegraphics[width=\textwidth]{../Notebooks/casesPerDayHistoryRptDtVsInDtWave1Peak.png}
+  \caption{NYC cases per day, first peak, by reporting date vs by
+    incident date.}
+  \label{fig:peak1}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!htb]
   \centering
-  \includegraphics[width=\textwidth]{../Notebooks/casesPerDayHistoryRptDtVsInDt.png}
-  \caption{NYC cases per day, 7 day rolling average, by incident date vs by reporting date.}
-  \label{fig:rptvsdata7day}
+  \includegraphics[width=\textwidth]{../Notebooks/casesPerDayHistoryRptDtVsInDtWave4Peak.png}
+  \caption{NYC cases per day, first peak, by reporting date vs by
+    incident date.}
+  \label{fig:omicron}
 \end{figure}
 
 As you can see, the reporting date data is far noisier; so much so
@@ -227,19 +238,19 @@ data exhibits a spike on May 11th of about 5,000 cases, far higher than
 the incident based data shows.  The incident based data shows a slight
 restatement of the data going back to the third week of March.
 
-Presumably NYC received a report a few days ago from a particular
+Presumably NYC received a report around mid May from a particular
 site, and that report relayed daily infections back through March that
 hadn't yet been recorded.  Report date based data then records this as
 a huge spike which never actually occurred.  Because of these
 underlying data collection mechanisms, report date based data
 collection often give a substantially distorted view from day to day.
 
-Another case in point is that the noise makes the peak appear to have
-occurred much earlier than it actually does.
+Another case in point is that the noise yields a false peak prior to
+the actual peak.
 
-Even after smoothing with The 7 day rolling window, report date data is
-overstating the post-peak number of cases by a substantial amount,
-sometimes by over 50\%.
+Even after smoothing with The 7 day rolling window, the report date
+data is overstating the post-peak number of cases by a substantial
+amount, sometimes by over 50\%.
 
 Surprisingly, the growth rate to the peak is higher rather than lower.
 This is presumably because reporting delays were greater when the data
@@ -268,10 +279,12 @@ fashion.  But, on the other hand, I suppose such work tends to be on a
 longer time scale and it's only in the current pandemic that we needed
 accurate, up to date infection and death counts.
 
-I'd hope that someone would take it upon themselves to
+I hope that data collection agencies will take it upon themselves to
 collect and aggregate the data on an incident date basis.  This would
-be a huge undertaking, but the longer this pandemic persists, the more
-important this becomes.
+be a significant undertaking, but would better enable us to analyze
+the data and respond appropriately.  Even better would be to release
+the data from the raw reports.  Then no guesswork would be required to
+account for reporting delays and analyses could be further enriched.
 
 \printbibliography
 

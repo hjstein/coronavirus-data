@@ -3,7 +3,9 @@ from matplotlib import pyplot as plt
 
 wave = {
     1: {"start": "2020-01-01",
-        "end": "2020-07-01"},
+        "end": "2020-07-01",
+        "peakStart": "2020-03-09",
+        "peakEnd": "2020-05-15"},
     2: {"start": "2020-09-01",
         "end": "2021-07-01"},
     3: {"start": "2021-07-01",
@@ -11,7 +13,9 @@ wave = {
         "name": "Delta"},
     4: {"start": "2021-11-01",
         "end": "2022-12-31",
-        "name": "Omicron"}}
+        "name": "Omicron",
+        "peakStart": "2021-12-01",
+        "peakEnd": "2022-01-31"}}
 
 old_wave_ids = {"one": 1,
                 "two": 2,
@@ -78,20 +82,27 @@ def get_wave_id(waveId):
     return w
 
 
-def get_wave(waveId):
+def get_wave(waveId, peak=False):
     '''Get start and end of specified wave
     '''
 
     w = get_wave_id(waveId)
 
-    return wave[w]["start"], wave[w]["end"]
+    if peak:
+        return wave[w]["peakStart"], wave[w]["peakEnd"]
+    else:
+        return wave[w]["start"], wave[w]["end"]
 
 
 def get_wave_name(waveId):
     '''Get name of specified wave
     '''
 
-    return wave[get_wave_id(waveId)]
+    return wave[get_wave_id(waveId)].get("name")
+
+
+def get_range(df, start, end):
+    return df[(df.index >= start) & (df.index < end)]
 
 
 def plot_multi(data, cols=None, spacing=.1, **kwargs):
