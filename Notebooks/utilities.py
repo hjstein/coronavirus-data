@@ -12,15 +12,19 @@ wave = {
         "end": "2021-11-01",
         "name": "Delta"},
     4: {"start": "2021-11-01",
-        "end": "2022-12-31",
+        "end": "2022-03-28",
         "name": "Omicron",
         "peakStart": "2021-12-01",
-        "peakEnd": "2022-01-31"}}
+        "peakEnd": "2022-03-01"},
+    5: {"start": "2022-03-01",
+        "end": "2022-12-31",
+        "name": "Omicron BA.2"}}
 
 old_wave_ids = {"one": 1,
                 "two": 2,
                 "three": 3,
-                "four": 4}
+                "four": 4,
+                "five": 5}
 
 count_cols = ["NEW_COVID_CASE_COUNT",
               "HOSPITALIZED_COUNT",
