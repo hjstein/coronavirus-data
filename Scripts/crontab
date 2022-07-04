@@ -2,4 +2,8 @@ SHELL=/bin/bash
 # MAILTO=hjstein@gmail.com
 MAILTO=hjstein
 
-*/5 * * * * $HOME/bin/run-update >>$HOME/Updatelog/coronavirus-data-`/bin/date +\%Y\%m\%d-\%H:\%M:\%S`.log 2>&1
+# Update on the hour
+0 * * * * $HOME/bin/run-update >>$HOME/Updatelog/coronavirus-data-`/bin/date +\%Y\%m\%d-\%H:\%M:\%S`.log 2>&1
+
+# Update every 5 minutes
+# */5 * * * * $HOME/bin/run-update >>$HOME/Updatelog/coronavirus-data-`/bin/date +\%Y\%m\%d-\%H:\%M:\%S`.log 2>&1
