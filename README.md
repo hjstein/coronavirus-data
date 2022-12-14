@@ -33,6 +33,10 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Update on October 28, 2022
+
+The Health Department uploaded historical probable deaths among NYC residents recently reported from other jurisdictions. These were cases where COVID was listed on the death certificate but without a corresponding positive lab and took place in 2020, 2021, and early 2022.  
+
 ## Update on September 14, 2021
 - Antibody-by-age, -by-boro, -by-poverty, and -by-sex data are now found in antibody-by-group.csv. The other files will no longer be updated.
 - by-age, by-boro, by-poverty, by-race, and by-sex will no longer be updated. Those data are now found in by-group.csv.
@@ -253,7 +257,7 @@ The Health Department imports information on hospitalization status from a numbe
 
 Note that hospitalization information can be missing or incomplete from a number of facilities, which is a limitation for any analysis considering hospitalization status by geography (e.g., borough).  
 
-With the November 9, 2020 update, we revised the definition of a COVID-19 hospitalization and removed people who were hospitalized more than 14 days before or after their COVID-19 diagnosis from our count. 
+With the November 9, 2020 update, we revised the definition of a COVID-19 hospitalization and removed people who were hospitalized more than 14 days before or after their COVID-19 diagnosis from our count. Starting October 6, 2022, we revised the definition of a COVID-19 hospitalization to prospectively include those diagnosed 14 days before through 3 days after their hospitalization. 
 
 Hospitalizations are among confirmed or probable cases of COVID-19.
 
