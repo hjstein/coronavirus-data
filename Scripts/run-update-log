@@ -1,0 +1,6 @@
+#!/bin/bash
+
+scriptpath=$(readlink -f -- "$0";)
+directory=$(dirname -- "$scriptpath")
+
+"${directory}/run-update" >>$HOME/Updatelog/coronavirus-data-`/bin/date +\%Y\%m\%d-\%H:\%M:\%S`.log 2>&1

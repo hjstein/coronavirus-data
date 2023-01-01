@@ -2,7 +2,10 @@
 
 echo `date`: Starting $0
 
-cd /home/ubuntu/coronavirus-data
+scriptpath=$(readlink -f -- "$0";)
+directory=$(dirname -- "$scriptpath")
+
+cd "${directory}/.."
 
 if [ -f run-update.lock ] ; then
     echo "Update in progress:"
@@ -15,7 +18,7 @@ touch run-update.lock
 
 trap "rm run-update.lock" EXIT
 
-source ~/venv/bin/activate
+source ../env/bin/activate
 
 ./Scripts/update-if-new-data
 
