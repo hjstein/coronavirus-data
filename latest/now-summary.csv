@@ -1,9 +1,9 @@
 "Measure","Last 7 days","Trend"
-Percent Positivity,16.67,Stable
-Total Cases,3119,Decreasing
-case_rate,248.38,
-Hospitalizations,98,Decreasing
-hosp_rate,19.58,
-Inpatient COVID bed occupancy,10.99,
-Confirmed Deaths,15,Decreasing
-"Updated: January 4, 2023",,
+Percent Positivity,13.46,Decreasing
+Total Cases,2220,Decreasing
+case_rate,186.43,
+Hospitalizations,105,Decreasing
+hosp_rate,15.65,
+Inpatient COVID bed occupancy,9.66,
+Confirmed Deaths,8,Decreasing
+"Updated: January 19, 2023",,
