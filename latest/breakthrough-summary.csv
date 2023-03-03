@@ -1,4 +1,4 @@
 measure,vaxbb_count,vaxnb_count,unvax_count,vaxbb_rate,vaxnb_rate,unvax_rate
-cases,538010,836704,1027434,275.41,202.72,557.3
-deaths,2149,3284,9605,1.04,0.91,4.02
-hospitalizations,20282,28913,64585,9.79,7.5,30.55
+cases,549454,843402,1033514,269.04,199.04,548
+deaths,2278,3287,9671,1.05,0.89,3.99
+hospitalizations,21233,29335,65206,9.79,7.42,30.3
