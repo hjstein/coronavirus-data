@@ -17,7 +17,7 @@ wave = {
         "peakStart": "2021-12-01",
         "peakEnd": "2022-03-01"},
     5: {"start": "2022-03-01",
-        "end": "2022-12-31",
+        "end": "2023-12-31",
         "name": "Omicron BA.2"}}
 
 old_wave_ids = {"one": 1,
