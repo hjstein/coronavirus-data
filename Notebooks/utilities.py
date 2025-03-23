@@ -39,6 +39,13 @@ aggregate_cols = ["Total cases",
                   "Total deaths"]
 
 
+def pltdflt(figsize=(12, 10)):
+    fig, ax = plt.subplots(figsize=figsize)
+    plt.grid(True, which="minor", linestyle="--")
+    plt.grid(True, which="major", color="0.5")
+    return fig, ax
+
+
 def load_data(file="../trends/data-by-day.csv"):
     '''Load case data'''
     dat = pd.read_csv("../trends/data-by-day.csv")
